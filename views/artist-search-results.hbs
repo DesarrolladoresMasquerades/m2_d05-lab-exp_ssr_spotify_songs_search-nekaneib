@@ -1,0 +1,16 @@
+
+<div class="container">
+
+    <h1>This is what you sent me..</h1>
+    {{#each resultArtist}}
+<div class="card">
+    <div class="card-body">
+        <img src="{{images.[0].url}}" alt="" class="card-img-top">
+        <h2 class="name card-title" >{{name}}</h2>
+        <button href="{{href}}" class="btn btn-primary" >link</button>
+    </div>
+</div>
+    {{/each}}
+
+
+</div>
